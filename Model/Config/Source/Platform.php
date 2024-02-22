@@ -28,7 +28,6 @@ class Platform implements \Magento\Framework\Data\OptionSourceInterface
     public function toOptionArray()
     {
         return [
-            'payrexx.com' => __('Payrexx'),
             'zahls.ch' => __('zahls.ch'),
         ];
     }
